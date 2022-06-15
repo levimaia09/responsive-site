@@ -10,6 +10,8 @@ body{
 }
 
 
+
+
 .container{
 	width: 100%;
 	height: 100%;
@@ -23,6 +25,10 @@ body{
 	grid-column-gap: 30px;
 	grid-row-gap: 40px;
 	font-size: 40px;
+}
+
+h1 {
+	font-size: 50px;
 }
 
 .navs{
@@ -165,6 +171,18 @@ body{
 	.navs{
 		font-size: 26px;
 	}
+
+	.nav-up {
+		height: 140px;
+	}
+
+	.nav-left {
+		margin: 0;
+	}
+
+	.nav-right{
+		margin: 0;
+	}
 }
 
 @media only screen and (max-width: 375px){
@@ -179,6 +197,18 @@ body{
 
 	.navs{
 		font-size: 18px;
+	}
+
+	.nav-up {
+		height: 110px;
+	}
+
+	.nav-left {
+		margin: 0;
+	}
+
+	.nav-right{
+		margin: 0;
 	}
 }
 
